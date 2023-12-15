@@ -23,6 +23,13 @@
 hs_err_pid*
 replay_pid*
 
-
+#metadata files
 /.metadata/*
 /.metadata/.plugins/*
+
+#eclipse settings
+*/.settings/*
+/.metadata/
+
+#bin folders
+*/bin/*

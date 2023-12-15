@@ -1,4 +1,4 @@
-package coordenação;
+package coordenaÃ§Ã£o;
 
 public class Agenda {
 

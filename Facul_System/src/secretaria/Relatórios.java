@@ -1,5 +1,5 @@
 package secretaria;
 
-public class Relatórios {
+public class RelatÃ³rios {
 
 }

@@ -1,5 +1,5 @@
 package alunos;
 
-public class Pontuações {
+public class PontuaÃ§Ãµes {
 
 }

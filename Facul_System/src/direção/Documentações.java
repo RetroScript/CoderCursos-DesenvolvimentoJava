@@ -1,5 +1,5 @@
-package direção;
+package direÃ§Ã£o;
 
-public class Documentações {
+public class DocumentaÃ§Ãµes {
 
 }

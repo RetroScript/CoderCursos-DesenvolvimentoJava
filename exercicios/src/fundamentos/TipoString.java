@@ -24,7 +24,41 @@ public class TipoString {
 		String nomeCompleto = String.format("Meu nome completo é %s %s", nome, sobrenome);
 		System.out.println("\n\n" + nomeCompleto);
 		
+		/*
+		 * 
+		 */
 		
+		//TEÓRICO**
+		String imutavel = "\n\nValores originais";
+		System.out.println(imutavel);
+		
+		//aqui só troquei o valor
+		imutavel = "são sempre substituidos";
+		
+		//aqui eu troquei, mas mesmo que eu tenho modificado o prévio, e o 
+		//substituo
+		imutavel = imutavel.concat(", sem nunca ser realmente modificados!");
+		System.out.println(imutavel);
+		
+		/*
+		 * 
+		 */
+		
+		//
+		String apelido1 = "dedé";
+		String APELIDO1 = "DEDÉ";
+		String apelido2 = "messi";
+		
+		System.out.println(apelido1.equals(APELIDO1));
+		System.out.println(apelido1.equalsIgnoreCase(APELIDO1));
+		System.out.println(apelido1.equals(apelido2));
+		
+		/*
+		 * 
+		 */
+		
+		var familia = "francelino";
+		System.out.println("Sobrenome contém Lino? " + familia.contains("lino"));
 		
 	}
 	

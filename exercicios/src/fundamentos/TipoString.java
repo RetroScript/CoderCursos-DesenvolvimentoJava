@@ -49,17 +49,60 @@ public class TipoString {
 		String APELIDO1 = "DEDÉ";
 		String apelido2 = "messi";
 		
-		System.out.println(apelido1.equals(APELIDO1));
-		System.out.println(apelido1.equalsIgnoreCase(APELIDO1));
-		System.out.println(apelido1.equals(apelido2));
+		System.out.println("\n\n");
+		System.out.println("Esse 'dedé' e 'DEDÉ' são iguais? " + apelido1.equals(APELIDO1));
+		System.out.println("Descosiderando os tamanhos esse 'dedé' e 'DEDÉ' são iguais? "
+				+ apelido1.equalsIgnoreCase(APELIDO1));
+		System.out.println("E 'messi', é igual a 'dedé'? " + apelido1.equals(apelido2));
 		
 		/*
 		 * 
 		 */
 		
+		//MÉTODO CONTAINS
 		var familia = "francelino";
+		System.out.println("\n\n");
 		System.out.println("Sobrenome contém Lino? " + familia.contains("lino"));
 		
+		/*
+		 * 
+		 */
+		
+		//MÉTODO CONCAT
+		
+		String sorvete = "sorvete de...";
+		String saborDeSorvete = " Chocolate!";
+		
+		System.out.println("\n\n");
+		System.out.println(sorvete);
+		
+		//DEVE-SE ATRIBUIR! somente modificar com "concat" não atualiza o valor
+		sorvete = sorvete.concat(saborDeSorvete);
+		System.out.println(sorvete);
+		
+		/*
+		 * 
+		 */
+		
+		//MÉTODOS TOUPPERCASE E TOLOWERCASE
+		
+		String aumentar = "aumentado!";
+		String diminuir = "DIMINUIDO!";
+		
+		System.out.println("\n\n");
+		System.out.println("ANTES DA CIRURGIA!");
+		
+		System.out.println(aumentar);
+		System.out.println(diminuir);
+		
+		aumentar = aumentar.toUpperCase();
+		diminuir = diminuir.toLowerCase();
+		
+		System.out.println("\n");
+		System.out.println("DEPOIS DA CIRURGIA!");
+		
+		System.out.println(aumentar);
+		System.out.println(diminuir);
 	}
 	
 }
